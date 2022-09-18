@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+
+
+app:
+  kafka:
+    taxi_coordinate: taxi.coordinate
