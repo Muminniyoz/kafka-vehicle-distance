@@ -10,11 +10,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
-import java.util.Arrays;
 
 @Component
 @Slf4j
-public class Streams implements Serializable {
+public class StreamsPipeline implements Serializable {
 
     @Value(value = "${app.kafka.topic.task1_1}")
     private String topicTask11;
