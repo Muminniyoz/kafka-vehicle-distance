@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+
+logging:
+  level:
+    root: INFO
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+    streams:
+      application-id: my-kafka-streams-application
+      bootstrap-servers: localhost:29092
+
+app:
+  kafka:
+    topic:
+      task1_1: task1_1
+      task1_2: task1_2
+

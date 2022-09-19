@@ -11,3 +11,12 @@
 <dt>Task12Receiver</dt>
     <dd> class receive message from topic1_2 and log it  </dd>
 </dl>
+
+# TASK-2 is located task2 module
+
+<dl>
+    <dt>Topic2Sender</dt>
+    <dd> class send message to topic task2 in each 2 s  </dd>
+<dt>StreamsPipeline</dt>
+    <dd> filter and rework </dd>
+</dl>

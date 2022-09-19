@@ -8,12 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="task1" />
+        <module name="task2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gateway" target="11" />
       <module name="gateway (1)" target="11" />
-      <module name="task1" target="11" />
       <module name="vehicle-distance" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gateway" options="-parameters" />
       <module name="task1" options="-parameters" />
+      <module name="task2" options="-parameters" />
       <module name="vehicle-distance" options="-parameters" />
     </option>
   </component>
