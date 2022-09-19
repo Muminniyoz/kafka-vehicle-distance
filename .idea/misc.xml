@@ -4,9 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cordinate-receiver/pom.xml" />
-        <option value="$PROJECT_DIR$/vehicle-distance/pom.xml" />
         <option value="$PROJECT_DIR$/cordinate-reciever/pom.xml" />
         <option value="$PROJECT_DIR$/coordinate-receiver/pom.xml" />
       </list>
