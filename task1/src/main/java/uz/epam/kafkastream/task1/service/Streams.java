@@ -27,12 +27,6 @@ public class Streams implements Serializable {
     void buildPipeline(StreamsBuilder streamsBuilder) {
         KStream<String, String> messageStream = streamsBuilder
                 .stream(topicTask11, Consumed.with(STRING_SERDE, STRING_SERDE));
-
-        log.info("Stream works: " + messageStream.toString());
-        KTable<String, String> wordCounts = messageStream
-                .mapValues((ValueMapper<String, String>) String::toLowerCase)
-                .toTable();
-
-        wordCounts.toStream().to(topicTask12);
+        messageStream.to(topicTask12);
     }
 }
