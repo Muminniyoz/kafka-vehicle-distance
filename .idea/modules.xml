@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/kafka-homework.iml" filepath="$PROJECT_DIR$/kafka-homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coordinate-receiver/task1.iml" filepath="$PROJECT_DIR$/coordinate-receiver/task1.iml" />
     </modules>
   </component>
 </project>

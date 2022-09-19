@@ -7,19 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="coordinate-receiver" />
+        <module name="task1" />
         <module name="gateway" />
         <module name="vehicle-distance" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gateway (1)" target="11" />
+      <module name="task1" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="coordinate-receiver" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="task1" options="-parameters" />
       <module name="vehicle-distance" options="-parameters" />
     </option>
   </component>
